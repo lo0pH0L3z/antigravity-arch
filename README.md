@@ -66,3 +66,6 @@ sudo pacman -R antigravity
 
 ---
 **Source:** [Antigravity Official](https://antigravity.google/)
+
+## AUR
+Available on AUR as [antigravity-tarball](https://aur.archlinux.org/packages/antigravity-tarball)
