@@ -1,0 +1,12 @@
+[Unit]
+Description=Check for Antigravity updates daily
+Requires=antigravity-update.service
+
+[Timer]
+# Run once a day, 10 minutes after boot (gives network time to come up)
+OnBootSec=10min
+OnUnitActiveSec=24h
+Persistent=true
+
+[Install]
+WantedBy=timers.target

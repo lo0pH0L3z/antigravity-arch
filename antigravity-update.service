@@ -1,0 +1,12 @@
+[Unit]
+Description=Antigravity AUR update checker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Set this to wherever your PKGBUILD lives
+Environment=ANTIGRAVITY_PKGBUILD_DIR=%h/aur/antigravity
+ExecStart=/usr/local/bin/antigravity-update
+StandardOutput=journal
+StandardError=journal
