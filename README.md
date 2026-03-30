@@ -69,3 +69,4 @@ sudo pacman -R antigravity
 
 ## AUR
 Available on AUR as [antigravity-tarball](https://aur.archlinux.org/packages/antigravity-tarball)
+# maintained by loOpH0l3z | ditchsystems.com
